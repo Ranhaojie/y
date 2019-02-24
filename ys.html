@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>优设网</title>
+	<meta charset="utf-8">
+	<style>
+		.mother{
+			position: fixed;
+			height: 70px;
+			width: 1500px;
+			background-color: white;
+			top: 0px;
+			left: 0px;
+		}
+		.child1{
+			width: 200px;
+			height: 70px;
+			background-color: orange;
+			position: fixed;
+			left: 50px;
+			text-align: center;
+		}
+		.child2{
+			font-size: 15px;
+			color: orange;
+			position: fixed;
+			left: 300px;
+			top: 30px;
+		}
+		.child3{
+			width: 50px;
+			height: 5px;
+			background-color: orange;
+			position: fixed;
+			left: 290px;
+			top: 60px;
+		}
+		.child4{
+			position: fixed;
+			left: 380px;
+			top: 30px;
+		}
+		.child5{
+			position: fixed;
+			left: 450px;
+			top: 30px;
+			font-size: 15px;
+
+		}
+	    .child5a{
+	    	position: fixed;
+	    	left: 430px;
+            width: 100px;
+            display: none;
+            top: 70px;
+            text-align: center;
+        }
+        .child5b{
+           border: solid grey 1px;
+            padding: 5px;
+        }
+        .child5c:hover dl{
+           display: block;
+           background-color: white;
+       }
+        a{
+            text-decoration: none;
+            padding: 5px;
+        }
+        .child6{
+        	position: fixed;
+        	left: 545px;
+        	top: 28px;
+        }
+        .child7{
+        	position: fixed;
+        	left: 650px;
+        	top: 30px;
+        	font-size: 15px;
+        }
+        .child7a{
+        	position: fixed;
+	    	left: 630px;
+            width: 100px;
+            display: none;
+            top: 70px;
+            text-align: center;
+        }
+        .child7b{
+        	border: solid grey 1px;
+        	padding: 5px;
+        }
+        .child8{
+        	position: fixed;
+        	left: 750px;
+        	top: 30px;
+        	font-size: 15px;
+        	color: orange;
+        }
+        .child8a{
+        	position: fixed;
+        	left: 735px;
+        	width: 100px;
+        	display: none;
+        	top: 70px;
+        	text-align: center;
+        }
+        .child8b{
+        	border: solid grey 1px;
+        	padding: 5px;
+        }
+        .child9{
+        	position: fixed;
+        	left: 850px;
+        	top: 30px;
+        	font-size: 15px;
+        }
+        .child9a{
+        	position: fixed;
+        	left: 840px;
+        	width: 100px;
+        	display: none;
+        	top: 70px;
+        	text-align: center;
+        }
+        .child9b{
+        	border: solid grey 1px;
+        	padding: 5px;
+        }
+        .child10{
+        	position: fixed;
+        	left: 970px;
+        	top: 30px;
+        	font-size: 15px;
+        }
+        .child11{
+        	position: fixed;
+        	left: 1060px;
+        	top: 30px;
+        	font-size: 15px;
+        }
+        .child11a{
+        	position: fixed;
+        	left: 1040px;
+        	width: 100px;
+        	display: none;
+        	top: 70px;
+        	text-align: center;
+        }
+        .child11b{
+        	border: solid grey 1px;
+        	padding: 5px;
+        }
+        *{ margin: 0; padding: 0;} 
+        ul{ list-style: none;} 
+        #view{ position: relative; width: 500px; height: 400px; margin-left: 50px;margin-top: 200px; border: 10px solid #bc8f8f; } 
+        #view:after{ content: '.'; display: block; clear: both; height: 0; visibility:hidden;} 
+        #img_list{ position: absolute; width: 960px;} 
+        #img_list li{ float: left; width: 320px; height: 120px; }  
+    </style>
+</head>
+<body>
+    <div class="mother">
+      	<div class="child1">
+      		<img src="https://image.uisdc.com/wp-content/uploads/2018/02/uisdc-logo.png" height="50px">
+      	</div>
+      	<div class="child2">首页</div>
+      	<div class="child3"></div>
+      	<div class="child4">文章</div>
+      	<div class="child5c">
+      	    <h2 class="child5">网址导航</h2>
+      	    <dl class="child5a">
+                <dt class="child5b">设计导航</dt>
+                <dt class="child5b">图书导航</dt>
+                <dt class="child5b">电商导航</dt>
+                <dt class="child5b">色彩导航</dt>
+            </dl>
+            <h2 class="child7">优设读报</h2>
+            <dl class="child7a">
+            	<dt class="child7b">读报首页</dt>
+            	<dt class="child7b">行业新闻</dt>
+            	<dt class="child7b">头条文章</dt>
+            </dl>
+            <h2 class="child8">培训课程</h2>
+            <dl class="child8a">
+            	<dt class="child8b">优设大课堂</dt>
+                <dt class="child8b">设计公开课</dt>
+            </dl>
+            <h2 class="child9">UiiiUiii教程</h2>
+            <dl class="child9a">
+            	<dt class="child9b">学教程</dt>
+            	<dt class="child9b">找灵感</dt>
+            </dl>
+            <h2 class="child11">关于我们</h2>
+            <dl class="child11a">
+            	<dt class="child11b">文章投稿</dt>
+            	<dt class="child11b">广告商务</dt>
+            	<dt class="child11b">意见反馈</dt>
+            </dl>
+        </div>
+        <div class="child6">细节猎人</div>
+        <div class="child10">免费素材</div>
+    </div>
+    <div id="pho"></div>
+    <script type="text/javascript">
+        var pho = document.getElementById('pho');
+        var xml = new XMLHttpRequest();
+        xml.open("get","https://www.easy-mock.com/mock/5c6a276b218aad2259a06c1d/example/query",true);
+        xml.send("");
+        xml.onreadystatechange = function(){
+            if (xml.readyState == 4&&xml.status ==200){
+    	    var data = xml.responseText;
+    	    var person = Json.parse(data);
+    	    pho.innerHTML = "<img src='"+person.img1+"'>";
+    	    }
+    	}
+    var img_list = document.getElementById('img_list'); 
+        setInterval(function(){ 
+        img_list.appendChild(img_list.firstChild); 
+        },500) 	
+    </script>
+     <div id="view"> 
+        <ul id="img_list"> 
+            <li id="a"></li> 
+            <li id="b"></li> 
+            <li id="c"></li> 
+        </ul> 
+    </div>
+</body>
+</html>
